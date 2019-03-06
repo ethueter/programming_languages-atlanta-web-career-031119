@@ -9,7 +9,7 @@ def reformat_languages(languages)
     end 
     new_hash.each do |a, b|
       if a == :ruby 
-        b<<{style: [:00]}
+        a<<{style: [:00]}
       binding.pry 
       
       end
