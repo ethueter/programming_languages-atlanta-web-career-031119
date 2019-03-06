@@ -9,10 +9,11 @@ def reformat_languages(languages)
       new_hash[attribute] = info
       end 
       new_hash[attribute][:style]=[:oo]
-      if attribute == :javascript 
+      if attribute == :clojure || attribute == :erlang || attribute == scala 
         new_hash[attribute][:style]=[:functional]
-      else 
+      elsif attribute == :javascript 
         new_hash[attribute][:style]=[:oo, :functional]
+      else 
       end 
        
     
