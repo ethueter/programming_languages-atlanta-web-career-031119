@@ -7,11 +7,7 @@ def reformat_languages(languages)
     if new_hash == nil 
       new_hash = data  
       binding.pry 
-    end
-    if attribute == :ruby || attribute == :python || attribute == :java 
       
-          
-        
       end
     end
   end
