@@ -7,8 +7,9 @@ def reformat_languages(languages)
     if new_hash == nil 
       new_hash = data.to_a 
     end 
-    if attribute == :ruby 
-      new_hash<<[:style , [:oo]]
+    new_hash.each do |a, b|
+      if a == :ruby 
+        b<<{style: [:00]}
       binding.pry 
       
       end
