@@ -8,7 +8,7 @@ def reformat_languages(languages)
       new_hash = data.to_s
     end 
     if attribute == :ruby 
-      new_hash[attribute][:style]=[:oo]
+      new_hash.push(attribute[:style]=[:oo])
       binding.pry 
       
       end
