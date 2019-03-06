@@ -1,16 +1,16 @@
 require 'pry'
 
 def reformat_languages(languages)
-  new_hash = nil 
+  new_hash = {} 
   languages.each do |language, data|
     data.each do |attribute, info|
-      binding.pry 
-    if new_hash == nil 
       
-      
-    
+    if new_hash[attribute] == nil 
+      new_hash = [attribute]
+    end 
+    binding.pry 
  
-      end
+      
     end
   end
   new_hash
