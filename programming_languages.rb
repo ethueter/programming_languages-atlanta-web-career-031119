@@ -4,10 +4,11 @@ def reformat_languages(languages)
   new_hash = nil 
   languages.each do |language, data|
     data.each do |attribute, info|
+      binding.pry 
     if new_hash == nil 
       
-      binding.pry 
-    end
+      
+    
  
       end
     end
