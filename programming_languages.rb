@@ -6,8 +6,8 @@ def reformat_languages(languages)
     data.each do |attribute, info|
       
     if new_hash[attribute] == nil 
-      new_hash = [attribute]
-    end 
+      new_hash[attribute] = info
+      end 
     binding.pry 
  
       
