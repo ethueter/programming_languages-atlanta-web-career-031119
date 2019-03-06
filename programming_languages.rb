@@ -9,8 +9,8 @@ def reformat_languages(languages)
       new_hash[attribute] = info
       end 
       new_hash[attribute][:style]=[]
-      new_hash[attribute][:style]<< style 
-    binding.pry 
+       
+    
  
       
     end
