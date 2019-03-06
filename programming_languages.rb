@@ -5,11 +5,7 @@ def reformat_languages(languages)
   languages.each do |language, data|
     data.each do |attribute, info|
     if new_hash == nil 
-      new_hash = data.to_a 
-    end 
-    new_hash.each do |a, b|
-      if a == :ruby 
-       
+      
       binding.pry 
     end
  
