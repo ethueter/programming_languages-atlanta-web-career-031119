@@ -12,7 +12,7 @@ def reformat_languages(languages)
         a<<[style: [:oo]]
       binding.pry 
     end
-  end 
+ 
       end
     end
   end
