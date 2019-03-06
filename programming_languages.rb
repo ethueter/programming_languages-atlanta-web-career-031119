@@ -10,7 +10,7 @@ def reformat_languages(languages)
     if attribute == :ruby || attribute == :python || attribute == :java 
       new_hash[attribute][:style]= [:oo]
           binding.pry 
-        end 
+        
       end
     end
   end
